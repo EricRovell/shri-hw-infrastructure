@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is running build
 
 on:
   push:
-    branches
+    branches:
       - master
       - release-v\d+
     paths-ignore:
